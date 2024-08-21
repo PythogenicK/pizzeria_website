@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/javascript/components/item-card.js"></script>
+
+    <link rel="stylesheet" href="/css/webpages/menu.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-container">
+        <script>
+            $(function () {
+                $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class = "wrapper">
+        <div class = "title-container" id = "main">
+            <h1>Sandwiches</h1>
+        </div>
+        <div class = "container">
+            <div class = "title-container" id = "section">
+                <h3>American Sandwiches</h3>
+            </div>
+            <div class = "content-container" id = "section-title-desc">
+                <p>Deluxe includes fries and coleslaw<br>Add melted mozzarella for $1.00<br>Add hot, sweet, or jalapeno peppers for $.50</p>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card 
+                    name="Hotdog w/ fries" 
+                    price="$3.95" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Cheese Dog w/ Fries" 
+                    price="$4.25" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Polish Sausage w/ Fries" 
+                    price="$4.50" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Chicken Patty Sandwich" 
+                    price="$4.95" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Fish Fillet Sandwich" 
+                    price="$4.95" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "title-container" id = "section">
+                <h3>Italian Sandwiches</h3>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card 
+                    name="Italian Beef" 
+                    price="$7.00" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Italian Sausage" 
+                    price="$4.95" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Italian Meatball" 
+                    price="$4.95" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Italian Beef and Sausage" 
+                    price="$7.95" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                    name="Philly Cheese Steak" 
+                    price="$7.95" 
+                    description="" 
+                    image="/assets/PNLOGO.png">
+                    </item-card>
+                </div>
+        </div>
+    </div>
+    <div class=footer-container>
+        <script>
+            $(function () {
+                $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+    
+</body>
+</html>

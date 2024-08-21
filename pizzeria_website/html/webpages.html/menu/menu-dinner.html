@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/javascript/components/item-card.js"></script>
+    <link rel="stylesheet" href="/css/webpages/menu.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class = "nav-container">
+        <script>
+            $(function(){
+              $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class = "wrapper">
+        <div class = "container">
+            <div class = "title-container" id = "main">
+                <h1>Dinner</h1>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "title-container" id = "section">
+                <h3>BBQ Dinner</h3>
+            </div>
+            <div class = "content-container" id = "section-title-desc">
+                <p>Served with fries, coleslaw, and bread</p>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="BBQ Rib Tip Dinner " 
+                        price="$13.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="BBQ Rib Tips & ½ BBQ Chicken" 
+                        price="$17.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Bucket of BBQ Rib Tips" 
+                        price="$22.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Baby Back Ribs Half Slab" 
+                        price="$11.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Baby Back Ribs Full Slab" 
+                        price="$16.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "title-container" id = "section">
+                <h3>Broasted Chicken Dinner</h3>
+            </div>
+            <div class = "content-container" id = "section-title-desc">
+                <p>Served with broasted potatoes, coleslaw, bread, and honey</p>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="4pc Broasted Chicken " 
+                        price="$10.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="12pc Broasted Chicken" 
+                        price="$26.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="8pc Broasted Chicken " 
+                        price="$86.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="4pc Dark Meat " 
+                        price="$86.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="8pc Chicken ONLY" 
+                        price="$86.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="12pc Chicken ONLY" 
+                        price="$86.95" 
+                        description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+            </div>
+
+        </div>
+        <div class = "container">
+            <div class = "title-container" id = "section">
+                <h3>Seafood</h3>
+            </div>
+            <div class = "content-container" id = "section-title-desc">
+                <p>Served with fries, coleslaw, bread, and honey</p>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card name="Shrimp Dinner" price="$13.95" description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="21 Shrimp Basket" price="$8.95" description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="Perch Dinner" price="$10.95" description=""
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = footer-container>
+        <script>
+            $(function(){
+            $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+
+</html>

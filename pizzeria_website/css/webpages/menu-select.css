@@ -1,0 +1,12 @@
+.card-container a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.card-container a:hover {
+    opacity: 0.8;
+    transition: opacity 0.3s ease;
+}

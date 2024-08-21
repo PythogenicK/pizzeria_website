@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/javascript/components/item-card.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/css/webpages/menu.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <title>Meal Deals</title>
+</head>
+<body>
+    <div class = "nav-container">
+        <script>
+            $(function(){
+              $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class = "wrapper">
+        <div class = "container">
+            <div class = "title-container">
+                <h1></h1>
+            </div>
+        </div>
+        <div class = "container">
+            <div class= "title-container" id = "main">
+                <h1>Meal deals</h1>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card name="Pizza Party" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="Family Pack" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="Combo Meal Deal" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="Double 14&quot; Pizza Special" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="14&quot; Pizza Special" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="18&quot; Pizza Special" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="3 Small Pizza Special" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card name="Beef & Pizza Special" price="$12.95" description="Romano Cheese and Marinara."
+                        image="burger.jpg">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = footer-container>
+        <script>
+            $(function(){
+            $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+</html>

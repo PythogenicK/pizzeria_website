@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <!-- <script src="/javascript/components/carousel.js"></script> -->
+    <link rel="stylesheet" href="/css/components/carousel.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <script src="/javascript/components/item-card.js"></script>
+    <script src="/javascript/components/carousel.js"></script>
+    <script src="/javascript/components/carousel_init.js"></script>
+    <link rel="stylesheet" href="/css/webpages/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class = "nav-container">
+        <script>
+            $(function(){
+              $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class = "wrapper">
+        <div class="container" id = "carousel">
+            <div class="carousel" id="myCarousel">
+                <div class="carousel-item">
+                    <img src="/assets/300968591_172397395313289_3812963108144183130_n.png" alt="Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/300968591_172397395313289_3812963108144183130_n.png" alt="Image 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/300968591_172397395313289_3812963108144183130_n.png" alt="Image 3">
+                </div>
+            </div>
+            <button class="carousel-button prev">&lt;</button>
+            <button class="carousel-button next">&gt;</button>
+            <div class="carousel-indicators" id="carouselIndicators">
+                <!-- Indicators will be dynamically added here -->
+            </div>
+        </div>
+        <script src="carousel.js"></script>
+        <script src="app.js"></script>
+        <div class = "container">
+            <div class = content-container id = "cards">
+                <div class="card-container">
+                    <a href = "/html/webpages.html/order_now.html">
+                        <item-card 
+                            description="Order with us today. Local delivery available through all of our locations!"
+                            image="/assets/PNLOGO.png"
+                            image-size = "medium">
+                        </item-card>
+                    </a>
+                </div>
+                <div class="card-container">
+                    <a href = "/html/webpages.html/menu/menu-catering.html">
+                        <item-card 
+                            description="Catering to your home, office or venue brought to you."
+                            image="/assets/PNLOGO.png"
+                            image-size = "medium">
+                        </item-card>
+                    </a>
+                </div>
+                <div class="card-container">
+                    <a href = "/html/webpages.html/menu/menu-specials.html">
+                        <item-card 
+                            description="Specials every day of the week!"
+                            image="/assets/PNLOGO.png"
+                            image-size = "medium">
+                        </item-card>
+                    </a>
+                </div>
+            </div>
+            <div class = content-container></div>
+        </div>
+        <div class = "container" id = "about">
+            <div class = "content-container" id = img>
+                <img src="/assets/300968591_172397395313289_3812963108144183130_n.png">
+            </div>
+            <div class = "content-container" id = desc>
+                <p>Located in Chicago with our flagship store in the heart of Little Village.<p>
+                <p>Pizza Nova serves up Chicago's best pizza pies. At Pizza Nova, every dish is created using only the freshest, finest ingredients.</p> 
+                <p>We pride ourselves in creating delicious yet affordable pizza's for you and your family.</p>
+                <p>Pizza Nova is proud of its long tradition of serving Chicago's pizza lovers for over 25 years.</p>
+            </div>
+        </div>
+        <div class = "container"></div>
+    </div>
+    <div class = footer-container>
+        <script>
+            $(function(){
+            $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+    
+</body>
+</html>

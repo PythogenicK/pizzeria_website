@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/javascript/components/item-card.js"></script>
+    <link rel="stylesheet" href="/css/webpages/menu.css">
+    <link rel="stylesheet" href="/css/webpages/menu-select.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+
+    <title>Menu</title>
+</head>
+<body>
+    <div class = "nav-container">
+        <script>
+            $(function(){
+              $(".nav-container").load("/html/components/nav.html");
+            });
+            </script>
+    </div>
+    <div class = "container">
+        <div class = "title-container" id = "menu-title">
+            <h1>Menu</h1>
+        </div>
+        <div class = "content-container" id = "menu-title-desc">
+            <h5>Menu availability may vary by location</h5>
+        </div>
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="card-container">
+                <a href="menu-specials.html">
+                    <item-card
+                        name="Specials"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+            
+            <div class="card-container">
+                <a href="menu-appetizers.html">
+                    <item-card
+                        name="Appetizers"
+                        image="/assets/PNLOGO.png"
+                        image-size ="medium">
+                    </item-card>
+                </a>
+            </div>
+            
+            <div class="card-container">
+                <a href="menu-pizza.html">
+                    <item-card
+                        name="Pizza"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+            
+            <div class="card-container">
+                <a href="menu-pasta.html">
+                    <item-card
+                        name="Pasta"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+            
+            <div class="card-container">
+                <a href="menu-burgers.html">
+                    <item-card
+                        name="Burgers"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+            
+            <div class="card-container">
+                <a href="menu-sandwich.html">
+                    <item-card
+                        name="Sandwiches"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+            
+            <div class="card-container">
+                <a href="menu-dinner.html">
+                    <item-card
+                        name="Dinner"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+
+            <div class="card-container">
+                <a href="menu-dessert.html">
+                    <item-card
+                        name="Dessert"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+            
+            <div class="card-container">
+                <a href="">
+                    <item-card
+                        name="Extras"
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class = footer-container>
+        <script>
+            $(function(){
+            $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+</html>

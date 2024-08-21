@@ -1,0 +1,84 @@
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+#cards{
+    display:flex;
+    flex-direction: row;
+
+
+}
+.card-container{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#img {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    height: 80vh; /* Adjust this value to control the height of the image */
+    overflow: hidden;
+}
+#img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+#desc{
+    z-index: 1;
+
+    padding-top:20px;
+}
+#carousel{
+    overflow: hidden;
+}
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+#desc {
+    flex: 1 1 300px; /* Adjust the 300px to your preferred minimum width */
+    box-sizing: border-box;
+}
+.card-container {
+    flex: 0 0 calc(33.33% - 20px);
+    box-sizing: border-box;
+    margin: 10px;
+ 
+    width: calc(33.33% - 20px)
+}
+item-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000; /* Move border to item-card */
+    padding: 30px;
+
+    margin-top:10px;
+    margin-bottom:10px;
+    
+    width: 100%;
+    height: 80%;
+}
+
+@media (max-width: 768px) {
+    .container#about {
+        flex-direction: column;
+    }
+
+    #img {
+        position: absolute;
+        height: 100%;
+    }
+
+    #desc {
+        margin-top: 0;
+    }
+}

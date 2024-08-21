@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/javascript/components/item-card.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/css/webpages/menu.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <title>Catering</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <script>
+            $(function () {
+                $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class="wrapper">
+        <div class = "container">
+            <div class="title-container" id = "main">
+                <h1>Catering</h1>
+            </div>
+            <div class="content-container" id = "main-title-desc">
+                <p>Tossed salad, potato salad, pasta salad or coleslaw<br>Fetuccini Alfredo surcharge ($15)</p>
+            </div>
+        </div>
+        <div class="container">
+            <!-- <div class="content-container"> -->
+            <div class="title-container" id = "section">
+                <h3>Packages</h3>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="Chicken & Sides Sampler" 
+                        price="$79.95" 
+                        description="
+                        30pc broasted chicken
+                        Half tray pasta 
+                        Half tray salad" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Chicken & Sides Spectacular" 
+                        price="$141.95" 
+                        description="
+                        60 pc broasted chicken
+                        Full tray pasta
+                        Full Tray Salad" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Hearty Beef & Bread Feast" 
+                        price="$78.95" 
+                        description="
+                        5lbs Italian beef
+                        4 French breach loaves
+                        1 pint peppers(hot or sweet)" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Hearty Meats & Sides Spectacular" 
+                        price="$141.95" 
+                        description="
+                        5lbs Italian beef
+                        4lbs Italian sausage
+                        1 Full tray salad or 2 half tray salad
+                        8 French breach loaves
+                        1 pint peppers(hot or sweet)" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title-container" id = section>
+                <h3>Trays</h3>
+            </div>
+            <div class = "content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="Spaghetti" 
+                        price="$35.95" 
+                        description="Romano Cheese and Marinara." 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Mostaccioli" 
+                        price="$35.95" 
+                        description="Full tray" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Fettucine Alfredo" 
+                        price="$49.95" 
+                        description="Full tray" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Eggplant Parmigiana" 
+                        price="$52.95" 
+                        description="Full tray" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Lasagna" 
+                        price="$59.95" 
+                        description="Full tray" 
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=footer-container>
+        <script>
+            $(function () {
+                $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+
+</html>

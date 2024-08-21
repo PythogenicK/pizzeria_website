@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/javascript/components/item-card.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/css/webpages/menu.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <title>Pasta</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <script>
+            $(function () {
+                $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class="wrapper">
+        <div class = "container">
+            <div class="title-container" id = "main">
+                <h1>Pasta</h1>
+            </div>
+            <div class = "content-container" id = "main-title-desc">
+                <h5>All orders served with garlic bread.</h5>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="title-container" id = "section">
+                <h3>Classics</h3>
+            </div>
+            <div class="content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="Spaghetti" 
+                        price="$8.99" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size="medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Mostaccioli" 
+                        price="$8.99" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size="medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Lasagna" 
+                        price="$12.95" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size="medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                            name="Chicken Parmigiana" 
+                            price="$12.95" 
+                            description="Romano Cheese and Marinara."
+                            image="/assets/PNLOGO.png"
+                            image-size="medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "title-container" id = "section"> 
+                <h3>Specialty</h3>
+            </div>
+            <div class="content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="Baked Mostaccioli" 
+                        price="$11.95" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size="medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Chicken Chipotle Pasta" 
+                        price="$14.95" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size="medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Shrimp Chipotle Pasta" 
+                        price="$17.95" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size="medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="Fettucini Alfredo" 
+                        price="$12.95" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size="medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=footer-container>
+        <script>
+            $(function () {
+                $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+
+</html>

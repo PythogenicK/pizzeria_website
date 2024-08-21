@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="/javascript/components/item-card.js"></script>
+    <link rel="stylesheet" href="/css/webpages/menu.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <title>Burgers</title>
+</head>
+<body>
+    <div class = "nav-container">
+        <script>
+            $(function(){
+              $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class = "wrapper">
+        <div class = "container">
+            <div class="title-container" id = "main">
+                <h1>Burgers</h1>
+            </div>
+            <div class = "content-container" id = "main-title-desc">
+                  <h5>All Burgers include lettuce, tomato, onions, and pickles <br>Deluxe includes fries and coleslaw</h5>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title-container" id = "section">
+                <h3>Classics</h3>
+            </div>
+            <div class="content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="¼ lb Burger" 
+                        price="$5.45" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="¼ lbs Cheeseburger" 
+                        price="$6.25" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="½ lbs Double Burger" 
+                        price="$7.75" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="½ lbs Double Cheeseburger" 
+                        price="$8.25" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title-container" id = "section">
+                <h3>Specialty</h3>
+            </div>
+            <div class="content-container">
+                <div class="card-container">
+                    <item-card 
+                        name="¼ lb Burger" 
+                        price="$5.45" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="¼ lbs Cheeseburger" 
+                        price="$6.25" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="½ lbs Double Burger" 
+                        price="$7.75" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+                <div class="card-container">
+                    <item-card 
+                        name="½ lbs Double Cheeseburger" 
+                        price="$8.25" 
+                        description="Romano Cheese and Marinara."
+                        image="/assets/PNLOGO.png"
+                        image-size = "medium">
+                    </item-card>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = footer-container>
+        <script>
+            $(function(){
+            $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="nav-container">
+        <script>
+            $(function () {
+                $(".nav-container").load("/html/components/nav.html",function() {
+                        $(".nav-container").addClass('loaded');
+                    });
+                });
+        </script>
+    </div>
+    <div class = "wrapper">
+        <div class = "container"></div>
+        <div class = "container"></div>
+    </div>
+    <div class = footer-container>
+        <script>
+            $(function(){
+            $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+</html>

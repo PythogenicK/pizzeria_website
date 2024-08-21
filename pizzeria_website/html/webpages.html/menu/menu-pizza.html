@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/javascript/components/item-card.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="/css/webpages/menu-pizza.css">
+    <link rel="stylesheet" href="/css/components/item-card.css">
+    <title>Pizza</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <script>
+            $(function () {
+                $(".nav-container").load("/html/components/nav.html");
+            });
+        </script>
+    </div>
+    <div class="wrapper">
+        <div class="container" id="left">
+            <div class="content-container">
+                <div class="title-container">
+                    <h1>Thin Crust</h1>
+                </div>
+                <div class=content-selection-container>
+                    <div class="card-container">
+                        <item-card 
+                            name="Classic" 
+                            price="$10.95"
+                            description="Thin, Pizza Sauce and your choice of topping." 
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                    <div class="card-container">
+                        <item-card 
+                            name="Vegetarian" 
+                            price="$17.95"
+                            description="Thin, Pizza Sauce, Pizza Cheese, Green Peppers, Mushroom, Onions and Black Olive."
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                    <div class="card-container">
+                        <item-card 
+                            name="Nova Special" 
+                            price="$17.95"
+                            description="Thin, Pizza Sauce, Pizza Cheese, Sausage, Mushroom, Green Peppers, Onions and Pepperoni."
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                    <div class="card-container">
+                        <item-card 
+                            name="Hot Nova Special" 
+                            price="$17.95"
+                            description="Thin, Pizza Sauce, Pizza Cheese, Jalapenos, Pepperoni, Onions, Green Peppers, Mushroom and Sausage."
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                    <div class="card-container">
+                        <item-card 
+                            name="Mexican" 
+                            price="$17.95"
+                            description="Thin, Refried Beans, Pizza Cheese, Chorizo, Beans, Onions, Jalapenos and Cilantro."
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="title-container">
+                    <h1>Deep Dish</h1>
+                </div>
+                <div class="content-selection-container">
+                    <div class="card-container">
+                        <item-card 
+                            name="Pan Pizza" 
+                            price="$12.95" 
+                            description="Pizza Sauce and Pizza Cheese."
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                    <div class="card-container">
+                        <item-card 
+                            name="Stuffed Pizza" 
+                            price="$14.95" 
+                            description="Pizza Sauce and Pizza Cheese."
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                    <div class="card-container">
+                        <item-card 
+                            name="Calzone" 
+                            price="$10.95" 
+                            description="Pizza Sauce and Pizza Cheese."
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                </div>
+            </div>
+            <div class="content-container">
+                <div class="title-container">
+                    <h1>Pizza by the Slice</h1>
+                </div>
+                <div class="content-selection-container">
+                    <div class="card-container">
+                        <item-card 
+                            name="Thin Crust" 
+                            price="$3.00"
+                            description="Original sauce with your choice of topping." 
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                    <div class="card-container">
+                        <item-card 
+                            name="Pan Slice" 
+                            price="$3.00"
+                            description="Deep dish with original sauce and sausage topping." 
+                            image="/assets/PNLOGO.png"
+                            image-size= "medium">
+                        </item-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" id="right">
+            <div class="toppings-container">
+                <div class="title-container">
+                    <h1>Toppings</h1>
+                </div>
+                <div class="options-container">
+                    <div class="title-container">
+                        <h3>Protein</h3>
+                        <div class="options-protein-container">
+                            <ul>
+                                <li>Pepperoni</li>
+                                <li>Italian Sausage</li>
+                                <li>Italian Beef</li>
+                                <li>Ground Beef</li>
+                                <li>Green Pepper</li>
+                                <li>Chicken</li>
+                                <li>Shrimp</li>
+                                <li>Chorizo</li>
+                                <li>Ham</li>
+                            </ul>
+                        </div>
+                        <div class="">
+                            <div class="header-container">
+                                <h3>Veggies</h3>
+                            </div>
+                            <div class="options-veggies-container">
+                                <ul>
+                                    <li>Fresh Garlic</li>
+                                    <li>Fresh Tomatoes</li>
+                                    <li>Green Olives</li>
+                                    <li>Black Olives</li>
+                                    <li>Mushrooms</li>
+                                    <li>Onions</li>
+                                    <li>Spinach</li>
+                                    <li>Broccoli</li>
+                                    <li>Jalapeno</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class=footer-container>
+        <script>
+            $(function () {
+                $(".footer-container").load("/html/components/footer.html");
+            });
+        </script>
+    </div>
+</body>
+
+</html>
